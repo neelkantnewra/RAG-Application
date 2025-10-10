@@ -3,7 +3,16 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-*.venv/
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
 
 # C extensions
 *.so
